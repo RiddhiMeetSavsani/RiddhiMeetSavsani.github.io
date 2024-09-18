@@ -1,0 +1,268 @@
+/*
+Name: Riddhi Meet Savsani
+Student Number: 0862829
+Date: 2024-07-14
+Purpose: CSS styles for the portfolio projects page.
+
+======================================================
+
+Color Guide:
+
+1. html background: white
+2. header background: #c8d6f1 (Light blue)
+3. a color: Black
+4. main background-color: aliceblue
+5. h1 color: #384b70 (Dark blue)
+6. footer background: #c8d6f1 (Light blue)
+7. @media screen and (max-width: 800px) background-color: aliceblue
+8. ul > li background-color: #c8d6f1 (Light blue)
+======================================================
+
+Table of Contents:
+
+1. Define custom font face
+2. HTML and BODY styles
+3. header styles
+4. main styles
+5. footer styles
+6. Media query for screens with a maximum width of 800px
+
+======================================================
+*/
+
+/* 1. Define custom font face */
+@font-face {
+  font-family: "MyCustomFont";
+  src: url("../fonts/Font3.ttf") format("truetype");
+}
+
+/* 2. HTML and BODY styles */
+html {
+  width: 100%;
+  background-color: white;
+}
+
+body {
+  max-width: 1200px;
+  border: 1px solid black;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+/* 3. header styles */
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 0.5em;
+  background-color: #c8d6f1;
+}
+
+header > a > img {
+  width: 5em;
+  height: 5em;
+}
+
+li > a > img {
+  width: 3em;
+  height: 3em;
+}
+
+nav {
+  width: 50%;
+}
+
+ul {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+ul > li {
+  display: block;
+  width: 33.333%;
+  text-align: right;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul > li > a {
+  display: block;
+  text-align: center;
+}
+
+/* 4. main styles */
+main {
+  background-color: aliceblue;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 2em;
+  line-height: 3em;
+  text-align: center;
+  font-weight: bold;
+  color: #384b70;
+  font-family: MyCustomFont;
+}
+
+article {
+  display: flex;
+  max-width: 100%;
+  justify-content: center;
+  margin: auto;
+}
+
+article > section {
+  max-width: 25%;
+  padding: 1em;
+  box-sizing: border-box;
+  justify-content: center;
+  border: 1px solid black;
+  position: relative;
+}
+
+h2 {
+  margin-bottom: 1em;
+  font-size: 130%;
+  font-weight: bold;
+  height: 2em;
+}
+
+h2 + img {
+  display: block;
+  max-width: 90%;
+  margin: auto;
+  margin-bottom: 1.2em;
+}
+
+section:first-of-type img + p {
+  line-height: 1.7em;
+}
+
+section:nth-of-type(2) img + p {
+  line-height: 1.56em;
+}
+
+section:nth-of-type(3) img + p {
+  line-height: 1.4em;
+}
+
+section:nth-of-type(4) img + p {
+  line-height: 1.1em;
+}
+
+section > p + p {
+  margin-top: 5em;
+  text-align: center;
+}
+
+p + p + img {
+  max-width: 20em;
+  display: none;
+}
+
+p + p:hover + img {
+  display: block;
+  position: absolute;
+  bottom: 5em;
+  left: 2em;
+  z-index: 2;
+}
+
+section:last-of-type > p + p:hover + img {
+  display: block;
+  position: absolute;
+  bottom: 5em;
+  left: -6em;
+  z-index: 5;
+}
+
+/* 5. Footer Styles */
+footer {
+  line-height: 3em;
+  text-align: center;
+  background-color: #c8d6f1;
+}
+
+/* 6. Media query for screens with a maximum width of 800px */
+@media screen and (max-width: 800px) {
+  header {
+    background-color: aliceblue;
+    width: 100%;
+    align-items: flex-start;
+    padding: 0.5em;
+  }
+
+  nav {
+    width: 90%;
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  ul {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 25%;
+  }
+
+  ul > li {
+    width: 100%;
+    margin: 2px 0;
+    box-sizing: padding-box;
+    background-color: #c8d6f1;
+  }
+
+  article {
+    display: flex;
+    flex-direction: column;
+  }
+
+  article > section {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  article > section > h2 {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  section > h2 + img {
+    width: 9em;
+    max-width: 100%;
+    padding: 0.8em;
+    float: left;
+    margin-bottom: -1em;
+  }
+
+  section > h2 + img + p {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  section > h2 + img + p + p {
+    clear: both;
+  }
+
+  section > p + p:hover + img {
+    left: 1em;
+  }
+
+  section:last-of-type > p + p:hover + img {
+    left: 1em;
+  }
+}
