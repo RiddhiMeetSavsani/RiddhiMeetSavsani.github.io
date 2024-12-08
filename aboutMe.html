@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+    Name: Riddhi Meet Savsani
+    Student Number: 0862829
+    Date: 2024-07-14
+    Purpose: To write HTML for the About me page of portfolio.
+-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="css/aboutMeStyles.css" rel="stylesheet">   
+    <title>About Me</title>
+</head>
+<body>
+   <!-- Desktop Navbar -->
+    <!-- Desktop Navbar -->
+    <header class="py-1 d-none d-lg-block gradient-navbar">
+        <div class="container-fluid d-flex justify-content-between align-items-center">
+            <a href="index.html">
+                <img src="images/porfolioHome.png" alt="Portfolio Home Icon" class="img-fluid portfolio-icon hover-effect" >
+            </a>
+            <nav>
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a href="index.html#projects" class="nav-link hover-effect">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="aboutMe.html" class="nav-link hover-effect">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="files/Riddhi_Meet_Savsani_Resume.pdf" class="nav-link hover-effect">
+                            <img src="images/resume-icon.png" alt="Resume Icon" class="resume-icon">
+                        </a>
+                    </li>     
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <!-- Mobile Navbar -->
+    <!-- Mobile Navbar with Offcanvas (No Backdrop) -->
+    <nav class="navbar fixed-top d-lg-none gradient-navbar">
+        <div class="container-fluid">
+          <a href="index.html">
+            <img src="images/porfolioHome.png" alt="Portfolio Home Icon" class="img-fluid" style="width: 50px;">
+          </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation" data-bs-backdrop="true">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <div class="offcanvas offcanvas-end custom-offcanvas" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="insex.html#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="aboutMe.html">About Me</a>
+                </li>
+                <li class="nav-item">
+                  <a href="files/Riddhi_Meet_Savsani_Resume.pdf" class="nav-link">
+                    <img src="images/resume-icon.png" alt="Resume Icon" style="width: 30px;">
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    <main>
+        <section>
+            <nav class="nva2">
+                <ul class="head">
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#employment">Employment</a></li>
+                    <li><a href="#hobbies">Hobbies</a></li>
+                </ul>
+            </nav>
+        </section>
+        <article>
+            <h2 id="skills">I Can Work With</h2>
+            <picture>
+                <source srcset="images/skills1.jpg" media="(max-width:900px)">
+                <img src="images/skills.jpg" alt="Skills image">
+            </picture>
+            
+            <section>
+                <div>
+                    <img src="images/javaIcon.png" alt="Java icon">
+                    <p>JAVA</p>
+                </div>
+                <div>
+                    <img src="images/python1.png" alt="Python icon">
+                    <p>Python</p>
+                </div>
+                <div>
+                    <img src="images/php1.png" alt="PHP icon">
+                    <p>PHP</p>
+                </div>
+                <div>
+                    <img src="images/css_icon.png" alt="CSS icon">
+                    <p>CSS</p>
+                </div>
+                <div>
+                    <img src="images/html_icon.png" alt="HTML icon">
+                    <p>HTML</p>
+                </div>
+                <div>
+                    <img src="images/java_script_icon.png" alt="JavaScript icon">
+                    <p>JAVA SCRIPT</p>
+                </div>
+            </section>
+            <section>
+                <h3>Programming Languages</h3>
+                <p>Proficient in Java, Python, PHP, C++.</p>
+                <h3>Web Development</h3>
+                <p>Proficient in HTML and CSS.</p>
+                <h3>Data Analysis</h3>
+                <p>Ability to write queries for data analysis and manipulation.</p>
+                <h3>Communication</h3>
+                <p>Strong listener and effective collaborator.</p>
+            </section>
+        </article>
+
+        <article>
+            <h2 id="education">Education</h2>
+            <img src="images/graduation_cap.png" alt="graduation cap image">
+            <section>
+                    <ul>
+                        <li>
+                            <span>Computer Programming</span>
+                            <ul>
+                                <li>Institute: ST. CLAIR COLLEGE</li>
+                                <li>Academic Year: January 2024 - Present</li>
+                                <li>First Semester GPA: 4.00/4.00</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <span>Master of Science (Mathematics)</span>
+                            <ul>
+                                <li>Institute: THE M. S. UNIVERSITY</li>
+                                <li>Academic Year: April 2018 - April 2020</li>
+                                <li>GPA: 3.82/4.00</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <span>Bachelor of Science (Mathematics)</span>
+                            <ul>
+                                <li>Institute: THE M. S. UNIVERSITY</li>
+                                <li>Academic Year: April 2015 - April 2018</li>
+                                <li>GPA: 3.70/4.00</li>
+                            </ul>
+                        </li>
+                    </ul>
+            </section>
+        </article>
+        <article>
+                <h2 id="employment">Employment</h2>
+                <section>
+                    <label>Designation:</label>
+                    <p>Tutor in Computer Programming</p>
+                    <label>Institute:</label>
+                    <p>ST. CLAIR COLLEGE, Canada (Sep 2024 – Present)</p>
+                    <label>Roles & Responsibilities &#11162;</label>
+                    <div>
+                        <ul>
+                            <li> - Guided students in programming concepts.</li>
+                            <li> - Assisted with assignments and projects.</li>
+                            <li> - Conducted tutoring sessions.</li>
+                            <li> - Created mock tests for exam preparation.</li>
+                        </ul>
+                    </div>
+                
+                    <label>Designation:</label>
+                    <p>Assistant Professor</p>
+                    <label>Institute:</label>
+                    <p>Neotech Technical Campus, India (Dec 2020 – Dec 2022)</p>
+                    <label>Roles & Responsibilities &#11162;</label>
+                    <div>
+                        <ul>
+                            <li> - Taught problem-solving and critical-thinking.</li>
+                            <li> - Adapted teaching methods to student needs.</li>
+                            <li> - Designed quizzes and lesson plans.</li>
+                            <li> - Encouraged active learning in class.</li>
+                        </ul>
+                    </div>
+                </section>
+                
+                <img src="images/career.jpg" alt ="career-image">
+        </article>
+
+        <article>
+            <h2 id="hobbies">My Favorite Activities</h2>
+            <p>These are the things I like to do most: I enjoy playing board and card games with friends for strategy and road trips for the excitement. I find that the beauty of nature captivates me when I explore beaches and islands. I can explore the undersea world through scuba diving and snorkeling, which offers exhilarating interactions with marine creatures.</p>
+            <section>
+                    <input type="radio" name="activity" id="scuba" checked>
+                    <img src="images/scuba_diving.png" alt="Scuba Diving">
+                
+                    
+                    <input type="radio" name="activity" id="road_trip">
+                    <img src="images/road_trip.jpg" alt="Road Trip">
+                
+                    
+                    <input type="radio" name="activity" id="snorkeling">
+                    <img src="images/snorkeling.jpg" alt="Snorkeling">
+                
+                    
+                    <input type="radio" name="activity" id="board_games">
+                    <img src="images/board_games.jpg" alt="Board Games">
+                    
+                    <div>
+                        <label for="scuba">Scuba Diving</label>
+                        <label for="road_trip">Road Trip</label>
+                        <label for="snorkeling">Snorkeling</label>
+                        <label for="board_games">Board Games</label>
+                    </div>
+            </section>
+        </article>
+        
+    </main>
+    <footer>
+        <p>&copy; 2024 Riddhi's Portfolio</p>
+    </footer>
+</body>
+</html>

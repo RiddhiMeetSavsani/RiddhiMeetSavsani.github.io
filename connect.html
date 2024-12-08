@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+    Name: Riddhi Meet Savsani
+    Student Number: 0862829
+    Date: 2024-07-14
+    Purpose: To write HTML for the portfolio connect-form page.
+-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="css/connectStyles.css" rel="stylesheet">
+    <script src="scripts/connectScript.js" defer></script>
+        <title>Contact</title>
+</head>
+<body>
+   <!-- Desktop Navbar -->
+  <!-- Desktop Navbar -->
+  <header class="py-1 d-none d-lg-block gradient-navbar">
+    <div class="container-fluid d-flex justify-content-between align-items-center">
+        <a href="index.html">
+            <img src="images/porfolioHome.png" alt="Portfolio Home Icon" class="img-fluid portfolio-icon hover-effect" >
+        </a>
+        <nav>
+            <ul class="nav">
+                <li class="nav-item">
+                    <a href="index.html#projects" class="nav-link hover-effect">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="aboutMe.html" class="nav-link hover-effect">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a href="files/Riddhi_Meet_Savsani_Resume.pdf" class="nav-link hover-effect">
+                        <img src="images/resume-icon.png" alt="Resume Icon" class="resume-icon">
+                    </a>
+                </li>     
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<!-- Mobile Navbar -->
+<!-- Mobile Navbar with Offcanvas (No Backdrop) -->
+<nav class="navbar fixed-top d-lg-none gradient-navbar">
+    <div class="container-fluid">
+      <a href="index.html">
+        <img src="images/porfolioHome.png" alt="Portfolio Home Icon" class="img-fluid" style="width: 50px;">
+      </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation" data-bs-backdrop="true">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="offcanvas offcanvas-end custom-offcanvas" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="aboutMe.html">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a href="files/Riddhi_Meet_Savsani_Resume.pdf" class="nav-link">
+                <img src="images/resume-icon.png" alt="Resume Icon" style="width: 30px;">
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+    <main>
+        <h1> Start a Conversation </h1>
+        
+        <p>Connecting is always a pleasure, whether for projects, collaborations, or a simple greeting. Reach out through the form here or directly send me an email.</p>
+        
+
+        <div class="row g-4 layout">
+            <div id="formFeedback" class="alert" role="alert" style="display: none;"></div>
+            <!-- Image and Text Section -->
+
+            <div class="col-md-6">
+                <picture>
+                    <source srcset="images/lets-talk2.jpeg" media="(max-width:800px)">
+                    <img src="images/lets-talk1.jpeg" alt="background image" class="img-fluid rounded">
+                </picture>
+            </div>
+                
+        
+               <!-- Form Section -->
+               <div class="col-md-6 form-container">
+                <form id="contactForm" action="submit-form.php" method="post" enctype="multipart/form-data">
+                    <!-- Form Fields -->
+                    <div class="mb-2">
+                        <label for="firstName" class="form-label">First Name:</label>
+                        <input type="text" id="firstName" name="firstName" class="form-control" required>
+                    </div>
+                
+                    <div class="mb-2">
+                        <label for="lastName" class="form-label">Last Name:</label>
+                        <input type="text" id="lastName" name="lastName" class="form-control" required>
+                    </div>
+                
+                    <div class="mb-2">
+                        <label for="message" class="form-label">Message:</label>
+                        <textarea id="message" name="message" class="form-control" rows="3" required></textarea>
+                    </div>
+                
+                    <div class="mb-4">
+                        <label for="upload" class="form-label">Upload PDF/File:</label>
+                        <input type="file" id="upload" name="upload" class="form-control" accept=".pdf,.doc,.docx">
+                    </div>
+                
+                    <button type="submit" class="btn btn-primary w-100">Get in Touch</button>
+                </form>
+               
+        </div>
+
+
+
+        <!-- Text and Email Section -->
+        <div class="row mt-4 mb-4">
+            <div class="col-12 text-center icon-container">
+
+                <!-- Email Icon -->
+                <a href="mailto:riddhimeet1115@outlook.com" style="text-decoration: none;" >
+                    <img src="images/mail-icon.png" alt="Email" style="width: 3em;">
+                </a>
+
+                <a href="https://www.linkedin.com/in/riddhi-meet-savsani-372170289/" style="text-decoration: none;" >
+                    <img src="images/LinkdinIcon.png" alt="LinkedIn" style="width: 3em;">
+                </a>
+
+                <a href="https://github.com/RiddhiMeetSavsani" style="text-decoration: none;">
+                    <img src="images/githubIcon.png" alt="GitHub" style="width: 3em;">
+                </a>
+
+             </div>
+        </div>
+    </div>
+</main>
+<footer class=" text-center">
+    <p>&copy; 2024 Riddhi's Portfolio</p>
+</footer>
+</body>
+</html>
