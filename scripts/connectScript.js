@@ -3,54 +3,45 @@ document.addEventListener('DOMContentLoaded', function () {
     const formFeedback = document.getElementById('formFeedback');
 
     contactForm.addEventListener('submit', function (e) {
-        e.preventDefault(); // Prevent the default form submission
+        e.preventDefault(); // Prevent default form submission behavior
 
         // Create a new FormData object
         const formData = new FormData(contactForm);
 
-        // Send the form data via Fetch API
-        fetch('submit-form.php', {
+        // Send the form data via Fetch API to the Formspree endpoint
+        fetch('https://formspree.io/f/mzzbqeve', {
             method: 'POST',
-            body: formData
+            body: formData,
+            headers: {
+                'Accept': 'application/json', // Required for Formspree JSON responses
+            },
         })
-        .then(response => response.json()) // Expect JSON response from PHP
-        .then(data => {
-            // Remove any previous alert classes
-            formFeedback.classList.remove('alert-success', 'alert-danger');
-
-            if (data.status === 'success') {
-                // Add success class and update text
-                formFeedback.classList.add('alert-success');
-                formFeedback.textContent = data.message;
-                contactForm.reset(); // Reset the form fields
-            } else {
-                // Add error class and update text
+            .then((response) => {
+                // Check if the response is OK
+                if (response.ok) {
+                    formFeedback.classList.remove('alert-danger');
+                    formFeedback.classList.add('alert-success');
+                    formFeedback.textContent = 'Thank you! Your message has been sent successfully.';
+                    contactForm.reset(); // Clear the form fields
+                } else {
+                    throw new Error('Network response was not ok.');
+                }
+            })
+            .catch((error) => {
+                // Handle errors
+                formFeedback.classList.remove('alert-success');
                 formFeedback.classList.add('alert-danger');
-                formFeedback.textContent = data.message;
-            }
+                formFeedback.textContent = 'There was an error submitting the form. Please try again.';
+                console.error('Error:', error);
+            })
+            .finally(() => {
+                // Show feedback message
+                formFeedback.style.display = 'block';
 
-            // Show the alert container
-            formFeedback.style.display = 'block';
-
-            // Automatically hide the alert after 5 seconds
-            setTimeout(() => {
-                formFeedback.style.display = 'none';
-            }, 5000);
-
-        })
-        .catch(error => {
-            // On network or other errors:
-            formFeedback.classList.remove('alert-success', 'alert-danger');
-            formFeedback.classList.add('alert-danger');
-            formFeedback.textContent = 'There was an error submitting the form. Please try again later.';
-            formFeedback.style.display = 'block';
-
-            console.error('Error:', error);
-
-            // Automatically hide the alert after 5 seconds
-            setTimeout(() => {
-                formFeedback.style.display = 'none';
-            }, 000);
-        });
+                // Automatically hide feedback after 5 seconds
+                setTimeout(() => {
+                    formFeedback.style.display = 'none';
+                }, 5000);
+            });
     });
 });
