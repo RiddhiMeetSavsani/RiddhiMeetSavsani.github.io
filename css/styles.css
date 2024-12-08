@@ -1,0 +1,319 @@
+
+@font-face {
+  font-family: "MyCustomFont";
+  src: url("../fonts/Font3.ttf") format("truetype");
+}
+.gradient-navbar {
+  background-color: #c8d6f1;
+  color: black;
+  display: flex;
+  align-items: center;
+}
+.nav {
+  display: flex;
+  gap: 2em;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.nav > li:nth-child(-n+2) {
+  /* Add your styles here */
+  padding-top: 0.2em;
+}
+
+.nav-link {
+  /* Use your custom font */
+  color: black; /* Set text color to black */
+  font-weight: bold;
+  text-transform: capitalize;
+  justify-content: center;
+  font-family: MyCustomFont, sans-serif;
+}
+/* .nav-link,
+.Connect.btn,
+.portfolio-icon {
+  transition: all 0.3s ease;
+} */
+
+.hover-effect:hover {
+  border: 3px solid #FFC0CB; /* Light pink border */
+  background-color: #384b70; /* Background color */
+  color: white; /* Font color */
+  /* padding: 0.2em 0.8em; Adjust padding if needed */
+  border-radius: 0.25em; /* Rounded corners */
+  transition: all 0.3s ease; /* Smooth transition */
+}
+
+
+/* Increase size of Portfolio Home Icon */
+.portfolio-icon {
+  width: 5em;
+  height: auto;
+  margin-left: 2em;
+}
+
+/* Increase size of Resume Icon */
+.resume-icon {
+  width: 2em;
+  height: auto;
+}
+/*Mobile Nav styels--------------------------------------------------------------------------------------------------*/
+/* Mobile Nav Styles */
+.custom-offcanvas {
+  background-color: #c8d6f1;
+  color: black;
+  font-family: "MyCustomFont", sans-serif;
+
+  /* Height settings */
+  height: auto !important;
+  max-height: 18em;
+
+  /* Control width: set to 50% of the viewport */
+  width: 50%;
+  max-width: 50%; /* Decreased width to 50% */
+
+  /* Adjust padding for a compact look */
+  padding: 0.3em 0.8em;
+
+  /* Include padding in the element's total width and height */
+  box-sizing: border-box;
+
+  /* Smooth transition for better UX */
+  transition: padding 0.3s ease, max-width 0.3s ease, width 0.3s ease;
+}
+
+/* Navigation List */
+.custom-offcanvas .nav {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2em; /* Further decrease space between items */
+  padding: 0;
+  margin: 0;
+  list-style: none; /* Remove default list styling */
+}
+
+/* Navigation Links */
+.custom-offcanvas .nav-link {
+  padding: 0.3em 0; /* Further reduce vertical padding */
+  font-size: 0.9em; /* Slightly smaller font size */
+  text-decoration: none; /* Remove underline */
+  color: inherit; /* Inherit text color */
+  display: block; /* Make the entire area clickable */
+  border-radius: 4px; /* Slight rounding for better aesthetics */
+  transition: background-color 0.3s ease;
+}
+
+/* Hover and Active States */
+.custom-offcanvas .nav-link:hover,
+.custom-offcanvas .nav-link:focus,
+.custom-offcanvas .nav-link.active {
+  background-color: rgba(0, 0, 0, 0.1); /* Light background on hover */
+}
+
+/* Optional: Add icons if needed */
+.custom-offcanvas .nav-link .icon {
+  margin-right: 0.4em;
+}
+
+/* Responsive Adjustments */
+@media (min-width: 768px) {
+  .custom-offcanvas {
+    max-width: 300px; /* Example for larger screens */
+    width: 300px; /* Fixed width for larger screens */
+  }
+}
+
+/* Add border (line) between navigation items */
+.custom-offcanvas .nav-item {
+  border-bottom: 1px solid #384b70;
+  padding: 2px 0;
+}
+
+/* Remove border for the last item to avoid extra line */
+.custom-offcanvas .nav-item:last-child {
+  border-bottom: none;
+}
+
+/* Hover effect for links */
+.custom-offcanvas .nav-link {
+  color: black;
+  transition: color 0.3s ease, background-color 0.3s ease;
+  padding: 0.5em 1em;
+  border-radius: 0.25em;
+}
+
+/* Change color and background on hover
+.custom-offcanvas .nav-link:hover  {
+  color: white;
+  background-color: #384b70;
+} */
+
+
+/*---------------------------------------------------------------------------------------------------------------------------------*/
+
+html{
+  background-color: white;
+}
+body{
+  width: 100%;
+  max-width:1555px;
+  margin: auto;
+  font-family: "MyCustomFont", sans-serif;
+  background-color: aliceblue;
+  border: 2px solid black;
+  line-height: 3em;
+}
+
+
+/*Main page */
+
+/* General Styles */
+
+.container-fluid {
+  padding: 0 20px;
+
+}
+
+h1 {
+  font-family: "MyCustomFont";
+  font-weight: bold;
+  text-align: left; 
+  font-size: 3rem; 
+  margin: -1rem 8rem;
+}
+
+.text-start p {
+  font-size: 1.4em; 
+  margin-bottom: 10px;
+}
+
+.cus img {
+  width: 20rem; 
+  margin-right: 0;
+}
+
+.cus p {
+  color: #555;
+  font-size: 1.4rem;
+  margin-left: 0; 
+}
+
+.cus .col-md-4 {
+  padding-right: 0px; /* Decrease padding between columns */
+}
+
+.cus .col-md-7 {
+  padding-left: 0px; /* Decrease padding between columns */
+}
+
+.Connect {
+  background-color: #c8d6f1; 
+  border-color: black ;
+  padding: 10px;
+}
+
+
+#projects{
+  margin-top: 1em;
+}
+.video-wrapper  {
+  width: 100%; /* Full width of the parent column */
+  overflow: hidden; /* Ensure no content overflows the container */
+}
+
+.video-wrapper video {
+  width: 85%; /* Stretch to full width */
+  height: auto; /* Maintain aspect ratio */
+  object-fit: cover;
+  border: 2px solid #000; /* Add a border around the video */
+  box-shadow: none;
+}
+
+h4 {
+  font-family: 'Roboto', Arial, sans-serif; /* Use professional font */
+  font-size: 1.5rem; /* Larger, bold titles */
+  margin-bottom: 1rem;
+  
+}
+.project-section .col-md-6 {
+  display: flex; /* Use Flexbox */
+  flex-direction: column; /* Align items vertically */
+  justify-content: center; /* Center items vertically */
+}
+.project-section p ,
+.project-section ul,
+.project-section li {
+  display: inline-block; 
+  font-family: 'Roboto', Arial, sans-serif; /* Use professional font */
+  font-size: 1rem; /* Standard size for readability */
+  line-height: 1.6; /* Improve readability with proper line spacing */
+  color: #333; /* Neutral, dark gray color for text */
+  text-align: left; /* Ensure text alignment is left */
+  margin-bottom: 1rem; /* Add spacing between paragraphs */
+  vertical-align: middle;
+}
+
+.image-wrapper {
+  display: block;
+  width: 85%;
+  margin: auto;
+  border: 2px solid #000; /* Border stays with the wrapper */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth animation for movement and shadow */
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Initial shadow */
+}
+
+.image-wrapper:hover {
+  transform: translateY(-10px); /* Moves the entire wrapper (image + border) upward */
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3); /* Stronger shadow on hover */
+}
+
+.image-wrapper img {
+  display: block;
+  width: 100%; /* Make the image responsive within the wrapper */
+  height: auto; /* Maintain aspect ratio */
+  border: none; /* Ensure no border on the image itself */
+}
+
+
+/* Responsive Styles */
+@media (max-width: 1000px) {
+  h1 {
+    margin: 2rem;
+    font-size: 2rem;
+  }
+  .cus {
+      text-align: center;
+  }
+
+  .cus p {
+    color: #555;
+    font-size: 1.4rem;
+    padding: 2rem;
+  }
+  
+
+  .cus img {
+      margin-bottom: 15px;
+  }
+}
+@media (max-width: 768px) {
+  .video-wrapper video, .image-wrapper img {
+    max-width: 100%; /* Ensure videos and images are responsive */
+  }
+}
+@media (max-width: 400px) {
+  h1 {
+  
+    font-size: 1.8rem;
+  }
+
+}
+
+/*--------------------------------------------------------------------------------------*/
+footer{
+  background-color: #c8d6f1;
+  text-align: center;
+  font-size:1.5em;
+  vertical-align: middle;
+  padding: 4vh 0 1vh 0;
+}

@@ -1,0 +1,667 @@
+@font-face {
+  font-family: "MyCustomFont";
+  src: url("../fonts/Font3.ttf") format("truetype");
+}
+.gradient-navbar {
+  background-color: #c8d6f1;
+  color: black;
+  display: flex;
+  align-items: center;
+}
+.nav {
+  display: flex;
+  gap: 2em;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.nav > li:nth-child(-n+2) {
+  /* Add your styles here */
+  padding-top: 0.2em;
+}
+
+.nav-link {
+  /* Use your custom font */
+  color: black; /* Set text color to black */
+  font-weight: bold;
+  text-transform: capitalize;
+  justify-content: center;
+  font-family: MyCustomFont, sans-serif;
+}
+/* .nav-link,
+.Connect.btn,
+.portfolio-icon {
+  transition: all 0.3s ease;
+} */
+
+.hover-effect:hover {
+  border: 3px solid #FFC0CB; /* Light pink border */
+  background-color: #384b70; /* Background color */
+  color: white; /* Font color */
+  /* padding: 0.2em 0.8em; Adjust padding if needed */
+  border-radius: 0.25em; /* Rounded corners */
+  transition: all 0.3s ease; /* Smooth transition */
+}
+
+
+/* Increase size of Portfolio Home Icon */
+.portfolio-icon {
+  width: 5em;
+  height: auto;
+  margin-left: 2em;
+}
+
+/* Increase size of Resume Icon */
+.resume-icon {
+  width: 2em;
+  height: auto;
+}
+/*Mobile Nav styels--------------------------------------------------------------------------------------------------*/
+/* Mobile Nav Styles */
+.custom-offcanvas {
+  background-color: #c8d6f1;
+  color: black;
+  font-family: "MyCustomFont", sans-serif;
+
+  /* Height settings */
+  height: auto !important;
+  max-height: 18em;
+
+  /* Control width: set to 50% of the viewport */
+  width: 50%;
+  max-width: 50%; /* Decreased width to 50% */
+
+  /* Adjust padding for a compact look */
+  padding: 0.3em 0.8em;
+
+  /* Include padding in the element's total width and height */
+  box-sizing: border-box;
+
+  /* Smooth transition for better UX */
+  transition: padding 0.3s ease, max-width 0.3s ease, width 0.3s ease;
+}
+
+/* Navigation List */
+.custom-offcanvas .nav {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2em; /* Further decrease space between items */
+  padding: 0;
+  margin: 0;
+  list-style: none; /* Remove default list styling */
+}
+
+/* Navigation Links */
+.custom-offcanvas .nav-link {
+  padding: 0.3em 0; /* Further reduce vertical padding */
+  font-size: 0.9em; /* Slightly smaller font size */
+  text-decoration: none; /* Remove underline */
+  color: inherit; /* Inherit text color */
+  display: block; /* Make the entire area clickable */
+  border-radius: 4px; /* Slight rounding for better aesthetics */
+  transition: background-color 0.3s ease;
+}
+
+/* Hover and Active States */
+.custom-offcanvas .nav-link:hover,
+.custom-offcanvas .nav-link:focus,
+.custom-offcanvas .nav-link.active {
+  background-color: rgba(0, 0, 0, 0.1); /* Light background on hover */
+}
+
+/* Optional: Add icons if needed */
+.custom-offcanvas .nav-link .icon {
+  margin-right: 0.4em;
+}
+
+/* Responsive Adjustments */
+@media (min-width: 768px) {
+  .custom-offcanvas {
+    max-width: 300px; /* Example for larger screens */
+    width: 300px; /* Fixed width for larger screens */
+  }
+}
+
+/* Add border (line) between navigation items */
+.custom-offcanvas .nav-item {
+  border-bottom: 1px solid #384b70;
+  padding: 2px 0;
+}
+
+/* Remove border for the last item to avoid extra line */
+.custom-offcanvas .nav-item:last-child {
+  border-bottom: none;
+}
+
+/* Hover effect for links */
+.custom-offcanvas .nav-link {
+  color: black;
+  transition: color 0.3s ease, background-color 0.3s ease;
+  padding: 0.5em 1em;
+  border-radius: 0.25em;
+}
+
+/* Change color and background on hover
+.custom-offcanvas .nav-link:hover  {
+  color: white;
+  background-color: #384b70;
+} */
+
+
+/*---------------------------------------------------------------------------------------------------------------------------------*/
+/* 2. HTML and BODY styles */
+html {
+  width: 100%;
+  background-color: white;
+}
+
+body {
+  width: 100%;
+  max-width:1555px;
+  border: 1px solid black;
+  margin: auto;
+  box-sizing: border-box;
+  background-color: aliceblue;
+}
+
+.head {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+.head > li {
+  display: block;
+  width: 33.333%;
+  text-align: right;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+.head > li > a {
+  display: block;
+  text-align: center;
+  font-family: MyCustomFont, sans-serif;
+}
+
+
+/* 4. main styles */
+main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.nva2 {
+  width: 100%;
+  margin: 1em 0 1em 0;
+}
+
+article {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  box-sizing: border-box;
+}
+
+/* 5. article:first-of-type styles */
+article:first-of-type>picture>img{
+  display: block;
+ margin-top: 3em;
+
+}
+
+
+article:first-of-type > section > div > img {
+  width: 4em;
+}
+article > h2 {
+  width: 100%;
+  line-height: 1em;
+  font-size: 2em;
+  padding: 1em;
+  box-sizing: border-box;
+  border-top: 1px solid black;
+  font-family: MyCustomFont;
+}
+article:first-of-type section div {
+  margin-bottom: 1em;
+}
+article:first-of-type section div img {
+  display: block;
+  width: 45%;
+  
+}
+article:first-of-type > section + section {
+  width: 40%;
+}
+article:first-of-type > section {
+  width: 10%;
+}
+
+article:first-of-type > section:first-of-type > div {
+  position: relative;
+  display: inline-block;
+  margin-top: 0;
+}
+
+article:first-of-type > section:first-of-type > div > p {
+  display: none;
+  position: absolute;
+  bottom: 1em;
+  left: 5em;
+
+}
+
+article:first-of-type > section:first-of-type > div > img:hover + p {
+  display: block;
+}
+
+article:first-of-type > section + section > h3 {
+  margin-top: 2em;
+  font-size: 1.5em;
+}
+
+article:first-of-type > section + section > p {
+  margin-top: 1em;
+  font-size: 1em;
+}
+/* 6. article:nth-of-type(2) styles*/
+article:nth-of-type(2) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+article:nth-of-type(2) > img {
+  width: 30%;
+}
+
+article:nth-of-type(2) > section {
+  width: 50%;
+  align-items: center;
+}
+
+article:nth-of-type(2) > section > ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  width: 90%;
+  margin: auto;
+}
+
+article:nth-of-type(2) > section > ul > li {
+  display: block;
+  width: 90%;
+  margin: auto;
+  position: relative;
+  margin-bottom: 1em;
+}
+
+article:nth-of-type(2) > section > ul > li > span {
+  display: block;
+  padding: 0.5em;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  width: 100%;
+  text-align: center;
+}
+
+article:nth-of-type(2) > section > ul > li > ul {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  width: 100%;
+  background-color: white;
+  border: 1px solid gray;
+  z-index: 1;
+}
+
+article:nth-of-type(2) > section > ul > li > ul > li {
+  padding: 0.5em;
+  border-bottom: 1px solid #ccc;
+  display: block;
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  font-size: 1em;
+}
+
+article:nth-of-type(2) > section > ul > li:hover > ul {
+  display: block;
+}
+
+article:nth-of-type(2) > section > ul > li > ul > li:last-child {
+  border-bottom: none;
+}
+
+/*7. article:nth-of-type(3) styles */
+
+article:nth-of-type(3) section {
+  width: 40%;
+  margin-left: 6%;
+  margin-bottom: 1em;
+}
+
+article:nth-of-type(3) > img {
+  width: 40%;
+  height: 40%;
+  margin-left: 0;
+}
+
+article:nth-of-type(3) section label {
+  display: block;
+  margin-top: 1em;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+article:nth-of-type(3) > section > div {
+  position: relative;
+  width: 100%;
+}
+
+/* Hidden List Styling */
+article:nth-of-type(3) section div > ul {
+  display: none;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 80%;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  position: absolute;
+  top: 100%; /* Appears below the label */
+  left: 0;
+  z-index: 1;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-left: 5em;
+}
+
+/* List Item Styling */
+article:nth-of-type(3) section div > ul > li {
+  padding: 0.5em;
+  font-size: 1em;
+  background-color: rgb(221, 235, 241); /* Pale Blue */
+  border-bottom: 1px solid #ccc;
+  text-align: left;
+}
+
+/* Remove Border for Last Item */
+article:nth-of-type(3) section div > ul > li:last-child {
+  border-bottom: none;
+}
+
+/* Hover Effect to Display List */
+article:nth-of-type(3) section label:hover + div > ul {
+  display: block;
+}
+
+
+/*8. article:last-of-type styles */
+article:last-of-type section img {
+  width: 60%;
+}
+article:last-of-type p {
+  width: 80%;
+  line-height: 1em;
+  margin: 1em;
+}
+article:last-of-type section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+article:last-of-type section {
+  text-align: center;
+}
+article:last-of-type section div {
+  display: flex;
+  width: 100%;
+}
+article:last-of-type > section > div > label {
+  display: block;
+  text-decoration: underline;
+  width: 20%;
+  margin: auto;
+  line-height: 3em;
+}
+
+article:last-of-type section img {
+  display: none;
+}
+
+article:last-of-type section input[type="radio"] {
+  display: none;
+}
+
+article:last-of-type section input[type="radio"]:checked + img {
+  display: block;
+  bottom: 100%;
+}
+
+
+/*10. Media query for screens with a maximum width of 900px*/
+
+@media screen and (max-width: 900px) {
+  article:first-of-type {
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 100%;
+  }
+  article:first-of-type h2 {
+    text-align: center;
+    font-size: 1.5em;
+  }
+  article:first-of-type picture {
+    width: 100%;
+    max-width: 100%;
+    margin: auto;
+  }
+  article:first-of-type picture img {
+    display: block;
+    width: 60%;
+    max-width: 100%;
+    margin: auto;
+  }
+
+  article:first-of-type > section:first-of-type {
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  article:first-of-type > section:first-of-type > div > img {
+    width: 5em;
+    margin-top: 1em;
+  }
+  article:first-of-type > section:first-of-type > div > img:hover + p {
+    top: 6em;
+    left: 0;
+  }
+
+  article:first-of-type > section:nth-of-type(2) {
+    width: 50%;
+    max-width: 100%;
+    margin: auto;
+    margin-top: 0;
+  }
+  article:first-of-type > section:nth-of-type(2) p:last-of-type {
+    margin-bottom: 1.5em;
+  }
+  article:first-of-type > section > div > img {
+    max-width: 100%;
+  }
+}
+
+/* 11. Media query for screens with a maximum width of 600px */
+@media screen and (max-width: 600px) {
+ 
+  article:first-of-type > section:first-of-type > div > img {
+    width: 3em;
+    margin-top: 1em;
+  }
+  article:first-of-type > section:first-of-type > div > img:hover + p {
+    margin-top: -2em;
+  }
+
+  article:first-of-type section nav ul li {
+    display: block;
+    line-height: 2.5em;
+    font-size: 1em;
+  }
+
+  article:first-of-type > section:nth-of-type(2) {
+    width: 80%;
+    max-width: 100%;
+    margin: auto;
+  }
+}
+/* 12. Media query for screens with a maximum width of 500px */
+@media screen and (max-width: 500px) {
+  article:first-of-type > section:first-of-type > div > img {
+    width: 2em;
+    margin-top: 1em;
+  }
+  article:first-of-type > section:first-of-type > div > img:hover + p {
+    margin-top: -3em;
+  }
+  article:nth-of-type(2),
+  article:nth-of-type(3) {
+    flex-direction: column;
+  }
+  article:nth-of-type(2) > section:first-of-type {
+    width: 100%;
+  }
+
+  article:nth-of-type(3) > img {
+    width: 80%;
+    max-width: 100%;
+    margin: auto;
+  }
+  article:nth-of-type(3) section {
+    width: 90%;
+    max-width: 100%;
+    order: 1;
+  }
+  article:nth-of-type(3) > section > label:hover + div > ul {
+    margin-left: 0;
+  }
+  article:last-of-type > section > div {
+    flex-wrap: wrap;
+  }
+  article:last-of-type > section > div > label {
+    width: 50%;
+  }
+}
+/*--------------------------------------------------------------------------------------*/
+footer{
+  background-color: #c8d6f1;
+  text-align: center;
+  font-size:1.5em;
+  vertical-align: middle;
+  padding: 4vh 0 1vh 0;
+}
+
+/*Mobile Nav styels--------------------------------------------------------------------------------------------------*/
+/* Mobile Nav Styles */
+.custom-offcanvas {
+  background-color: #c8d6f1;
+  color: black;
+  font-family: "MyCustomFont", sans-serif;
+
+  /* Height settings */
+  height: auto !important;
+  max-height: 18em;
+
+  /* Control width: set to 50% of the viewport */
+  width: 50%;
+  max-width: 50%; /* Decreased width to 50% */
+
+  /* Adjust padding for a compact look */
+  padding: 0.3em 0.8em;
+
+  /* Include padding in the element's total width and height */
+  box-sizing: border-box;
+
+  /* Smooth transition for better UX */
+  transition: padding 0.3s ease, max-width 0.3s ease, width 0.3s ease;
+}
+
+/* Navigation List */
+.custom-offcanvas .nav {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2em; /* Further decrease space between items */
+  padding: 0;
+  margin: 0;
+  list-style: none; /* Remove default list styling */
+}
+
+/* Navigation Links */
+.custom-offcanvas .nav-link {
+  padding: 0.3em 0; /* Further reduce vertical padding */
+  font-size: 0.9em; /* Slightly smaller font size */
+  text-decoration: none; /* Remove underline */
+  color: inherit; /* Inherit text color */
+  display: block; /* Make the entire area clickable */
+  border-radius: 4px; /* Slight rounding for better aesthetics */
+  transition: background-color 0.3s ease;
+}
+
+/* Hover and Active States */
+.custom-offcanvas .nav-link:hover,
+.custom-offcanvas .nav-link:focus,
+.custom-offcanvas .nav-link.active {
+  background-color: rgba(0, 0, 0, 0.1); /* Light background on hover */
+}
+
+/* Optional: Add icons if needed */
+.custom-offcanvas .nav-link .icon {
+  margin-right: 0.4em;
+}
+
+/* Responsive Adjustments */
+@media (min-width: 768px) {
+  .custom-offcanvas {
+    max-width: 300px; /* Example for larger screens */
+    width: 300px; /* Fixed width for larger screens */
+  }
+}
+
+/* Add border (line) between navigation items */
+.custom-offcanvas .nav-item {
+  border-bottom: 1px solid #384b70;
+  padding: 4px 0;
+}
+
+/* Remove border for the last item to avoid extra line */
+.custom-offcanvas .nav-item:last-child {
+  border-bottom: none;
+}
+
+/* Hover effect for links */
+.custom-offcanvas .nav-link {
+  color: black;
+  transition: color 0.3s ease, background-color 0.3s ease;
+  padding: 1em 1em;
+  border-radius: 0.25em;
+}
+
+/* Change color and background on hover */
+.custom-offcanvas .nav-link:hover {
+  color: white;
+  background-color: #384b70;
+}
+
+
+/*---------------------------------------------------------------------------------------------------------------------------------*/

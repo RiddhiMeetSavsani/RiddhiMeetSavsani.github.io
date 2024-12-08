@@ -1,0 +1,313 @@
+@font-face {
+  font-family: "MyCustomFont";
+  src: url("../fonts/Font3.ttf") format("truetype");
+}
+.gradient-navbar {
+  background-color: #c8d6f1;
+  color: black;
+  display: flex;
+  align-items: center;
+}
+.nav {
+  display: flex;
+  gap: 2em;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.nav > li:nth-child(-n+2) {
+  /* Add your styles here */
+  padding-top: 0.2em;
+}
+
+.nav-link {
+  /* Use your custom font */
+  color: black; /* Set text color to black */
+  font-weight: bold;
+  text-transform: capitalize;
+  justify-content: center;
+  font-family: MyCustomFont, sans-serif;
+}
+/* .nav-link,
+.Connect.btn,
+.portfolio-icon {
+  transition: all 0.3s ease;
+} */
+
+.hover-effect:hover {
+  border: 3px solid #FFC0CB; /* Light pink border */
+  background-color: #384b70; /* Background color */
+  color: white; /* Font color */
+  /* padding: 0.2em 0.8em; Adjust padding if needed */
+  border-radius: 0.25em; /* Rounded corners */
+  transition: all 0.3s ease; /* Smooth transition */
+}
+
+
+/* Increase size of Portfolio Home Icon */
+.portfolio-icon {
+  width: 5em;
+  height: auto;
+  margin-left: 2em;
+}
+
+/* Increase size of Resume Icon */
+.resume-icon {
+  width: 2em;
+  height: auto;
+}
+/*Mobile Nav styels--------------------------------------------------------------------------------------------------*/
+/* Mobile Nav Styles */
+.custom-offcanvas {
+  background-color: #c8d6f1;
+  color: black;
+  font-family: "MyCustomFont", sans-serif;
+
+  /* Height settings */
+  height: auto !important;
+  max-height: 18em;
+
+  /* Control width: set to 50% of the viewport */
+  width: 50%;
+  max-width: 50%; /* Decreased width to 50% */
+
+  /* Adjust padding for a compact look */
+  padding: 0.3em 0.8em;
+
+  /* Include padding in the element's total width and height */
+  box-sizing: border-box;
+
+  /* Smooth transition for better UX */
+  transition: padding 0.3s ease, max-width 0.3s ease, width 0.3s ease;
+}
+
+/* Navigation List */
+.custom-offcanvas .nav {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2em; /* Further decrease space between items */
+  padding: 0;
+  margin: 0;
+  list-style: none; /* Remove default list styling */
+}
+
+/* Navigation Links */
+.custom-offcanvas .nav-link {
+  padding: 0.3em 0; /* Further reduce vertical padding */
+  font-size: 0.9em; /* Slightly smaller font size */
+  text-decoration: none; /* Remove underline */
+  color: inherit; /* Inherit text color */
+  display: block; /* Make the entire area clickable */
+  border-radius: 4px; /* Slight rounding for better aesthetics */
+  transition: background-color 0.3s ease;
+}
+
+/* Hover and Active States */
+.custom-offcanvas .nav-link:hover,
+.custom-offcanvas .nav-link:focus,
+.custom-offcanvas .nav-link.active {
+  background-color: rgba(0, 0, 0, 0.1); /* Light background on hover */
+}
+
+/* Optional: Add icons if needed */
+.custom-offcanvas .nav-link .icon {
+  margin-right: 0.4em;
+}
+
+/* Responsive Adjustments */
+@media (min-width: 768px) {
+  .custom-offcanvas {
+    max-width: 300px; /* Example for larger screens */
+    width: 300px; /* Fixed width for larger screens */
+  }
+}
+
+/* Add border (line) between navigation items */
+.custom-offcanvas .nav-item {
+  border-bottom: 1px solid #384b70;
+  padding: 2px 0;
+}
+
+/* Remove border for the last item to avoid extra line */
+.custom-offcanvas .nav-item:last-child {
+  border-bottom: none;
+}
+
+/* Hover effect for links */
+.custom-offcanvas .nav-link {
+  color: black;
+  transition: color 0.3s ease, background-color 0.3s ease;
+  padding: 0.5em 1em;
+  border-radius: 0.25em;
+}
+
+/* Change color and background on hover
+.custom-offcanvas .nav-link:hover  {
+  color: white;
+  background-color: #384b70;
+} */
+
+
+
+/*---------------------------------------------------------------------------------------------------------------------------------*/
+
+/*---------------------------------------------------------------------------------------------------------------------------------*/
+
+@font-face {
+  font-family: "MyCustomFont";
+  src: url("../fonts/Font3.ttf") format("truetype");
+}
+html{
+  background-color: white;
+}
+body {
+  width: 100%;
+  max-width:1555px;
+  background-color: aliceblue;
+  font-family: "MyCustomFont", sans-serif;
+  margin: auto;
+  border: 2px solid black;
+}
+
+h1{
+  text-align: center;
+  margin-top: 2em;
+}
+main p{
+  text-align: justify;
+  font-size: 1.5em;
+  width: 70%;
+  margin: auto;
+}
+.layout{
+  max-width: 100%;
+  margin: auto;
+  margin-top: 2em;
+  position: relative;
+}
+
+/*message aletrt form submission styles*/
+#formFeedback{
+  text-align: center;
+  width: 50%;
+  margin: auto;
+  margin-top: 0.5em;
+
+  position: absolute; 
+  top:-2em; 
+  left: 25%; 
+  z-index: 9999; 
+  text-align: center;
+}
+
+.contact-container {
+  max-width: 100%;
+  margin: auto;
+  background: aliceblue;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.icon-container {
+  display: flex;
+  justify-content: center; /* Centers the icons horizontally */
+  gap: 5rem; /* Adds equal spacing between each icon */
+  align-items: center; /* Ensures icons are vertically aligned */
+}
+.btn{
+  font-size: 1.7em;
+  font-weight: bold;
+  background-color: #4976d0;
+}
+.form-container {
+  background-color: #c8d6f1;
+  padding: 3em;
+  width: 30%;
+  height: 90%;
+  margin:5em 0 2em -2em;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  border-radius: 5px;
+}
+
+picture img{
+  width: 70%;
+  margin-left: 15em;
+  min-height: 100%;
+  border: 6px solid #c8d6f1;
+}
+
+@media (max-width: 1200px) {
+  picture img{
+    margin-left: 6em ;
+    display: block;
+    width: 90%;
+  }
+  .form-container {
+    width: 40%;
+  }
+}
+
+@media (max-width: 1050px) {
+  .form-container {
+    width: 40%;
+    margin: 4em 2em 0 2em;
+  }
+  picture img{
+    width: 150%;
+    margin-left: 5em ;
+  }
+
+}
+
+@media (max-width:970px) {
+  .form-container {
+    margin: 3em 2em 0 2em;
+  }
+}
+
+@media (max-width:930px) {
+  .form-container {
+    margin: 2.3em 2em 0 2em;
+  }
+}
+
+@media (max-width:800px) {
+  .form-container {
+    
+    width: 90%;
+    margin: auto;
+    margin-top: -2em;
+  }
+  picture img{
+    display: block;
+    margin: auto;
+    height: auto;
+    min-height: auto;
+    width: 100%;
+  }
+  h1{
+    line-height: 13vh;
+  }
+}
+
+@media (max-width:471px) {
+  .form-container {
+    margin-bottom: 1em;
+  }
+}
+
+@media (max-width:450px) {
+  .form-container {
+    margin-bottom: 1em;
+    margin-top: -5vh;
+  }
+}
+
+
+/*--------------------------------------------------------------------------------------*/
+footer{
+  background-color: #c8d6f1;
+  text-align: center;
+  font-size:1.5em;
+  vertical-align: middle;
+  padding: 4vh 0 1vh 0;
+}
