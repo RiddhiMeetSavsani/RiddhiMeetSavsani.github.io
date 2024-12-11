@@ -138,7 +138,6 @@
 .custom-offcanvas .nav-link {
   color: black;
   transition: color 0.3s ease, background-color 0.3s ease;
- 
   border-radius: 0.25em;
 }
 
@@ -179,6 +178,8 @@ main p{
   font-size: 1.5em;
   width: 70%;
   margin: auto;
+  font-family: 'Roboto', Arial, sans-serif; 
+
 }
 .layout{
   max-width: 100%;
