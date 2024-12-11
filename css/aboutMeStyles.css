@@ -570,6 +570,7 @@ footer{
   font-size:1.5em;
   vertical-align: middle;
   padding: 4vh 0 1vh 0;
+  font-family: "MyCustomFont";
 }
 
 /*Mobile Nav styels--------------------------------------------------------------------------------------------------*/
