@@ -1,0 +1,59 @@
+
+
+
+
+
+<nav class="navbar fixed-top gradient-navbar">
+  <div class="container-fluid">
+    <a routerLink="/">
+      <img src="/images/porfolioHome.gif" alt="Portfolio Home Icon" class="img-fluid" style="width: 80px;">
+    </a>
+
+    <!-- Desktop Links -->
+    <div class="d-none d-lg-flex">
+      <ul class="nav">
+        <li class="nav-item">
+          <a routerLink="/#projects" class="nav-link hover-effect" style="color: #000 !important; font-size: 1.5em">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a routerLink="/about-me" class="nav-link hover-effect" style="color: #000 !important; font-size: 1.5em">About Me</a>
+        </li>
+        <li class="nav-item">
+          <a href="assets/files/Riddhi_Meet_Savsani_Resume.pdf" class="nav-link hover-effect">
+            <img src="images/resume-icon.png" alt="Resume Icon" class="resume-icon" style="width: 80px;">
+          </a>
+        </li>
+      </ul>
+    </div>
+
+
+    <!-- Mobile Navbar Toggler -->
+    <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Mobile Links -->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+      <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+          <li class="nav-item">
+            <a routerLink="/" class="nav-link active" >Home</a>
+          </li>
+          <li class="nav-item">
+            <a routerLink="/#projects" class="nav-link" >Projects</a>
+          </li>
+          <li class="nav-item">
+            <a routerLink="/about-me" class="nav-link" >About Me</a>
+          </li>
+          <li class="nav-item">
+            <a href="assets/files/Riddhi_Meet_Savsani_Resume.pdf" class="nav-link">
+              <img src="/images/resume-icon.png" alt="Resume Icon" style="width: 80px;">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</nav>
+
