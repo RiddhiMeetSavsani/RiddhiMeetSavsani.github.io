@@ -13,3 +13,25 @@
   color: white;
   background-color: #4f5d73;
 }
+
+#typingEffect {
+  font-size: 3.5rem; /* Default size for larger screens */
+}
+
+@media (max-width: 1200px) {
+  #typingEffect {
+    font-size: 3rem; /* Font size for medium screens (e.g., tablets) */
+  }
+}
+
+@media (max-width: 991px) {
+  #typingEffect {
+    font-size: 2rem; /* Font size for smaller screens (e.g., mobile) */
+  }
+}
+
+@media (max-width: 576px) {
+  #typingEffect {
+    font-size: 1.5rem; /* Font size for very small screens (e.g., extra small mobile) */
+  }
+}
