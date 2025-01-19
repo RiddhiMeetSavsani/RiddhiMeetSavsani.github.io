@@ -1,11 +1,19 @@
-import { Component } from '@angular/core';
+import { Component, AfterViewInit } from '@angular/core';
 
 @Component({
   selector: 'app-skills',
-  imports: [],
   templateUrl: './skills.component.html',
-  styleUrl: './skills.component.css'
+  standalone: true,
+  styleUrls: ['./skills.component.css']
 })
-export class SkillsComponent {
+export class SkillsComponent implements AfterViewInit {
 
+  // After the view is initialized, enable tooltips
+  ngAfterViewInit(): void {
+    const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]') as NodeListOf<HTMLElement>;
+    [...tooltipTriggerList].forEach((tooltipTriggerEl) => {
+      // @ts-ignore
+      new tooltipTriggerEl.Tooltip(tooltipTriggerEl);
+    });
+  }
 }

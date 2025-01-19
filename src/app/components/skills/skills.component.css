@@ -1,0 +1,10 @@
+.icon-name {
+  display: none;
+  margin-top: 8px;  /* Adjust as necessary */
+}
+
+[data-bs-toggle="tooltip"]:hover + .icon-name {
+  display: block;
+  position: absolute;
+  margin-top: 5px;
+}

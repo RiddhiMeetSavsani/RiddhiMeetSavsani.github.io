@@ -87,4 +87,29 @@
   transform: scale(1.05);
 }
 
+.a-transition {
+  position: relative;
+  display: inline-block; /* Required for proper positioning of ::after */
+  padding-bottom: 5px; /* Space for underline */
+  cursor: pointer;
+  font-size: 16px;
+  color: #000;
+  text-decoration: none;
+}
+
+.a-transition::after {
+  content: '';
+  position: absolute;
+  left: 0; /* Start from the left */
+  bottom: 0;
+  width: 0; /* Initially, no underline is visible */
+  height: 2px; /* Thickness of the underline */
+  background-color: black; /* Color of the underline */
+  transition: width 0.3s ease; /* Smooth left-to-right animation */
+}
+
+.a-transition:hover::after {
+  width: 100%; /* Expand the underline to full width */
+}
+
 

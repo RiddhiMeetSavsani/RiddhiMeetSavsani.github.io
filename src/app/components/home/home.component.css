@@ -1,9 +1,15 @@
+
 .container{
   padding-top: 105px;
+
 }
 
 .custom-btn{
-  background-color:  #4f5d73;
-  color: white;
+  background-color:  #d1d7e0;
+  color: black;
 }
 
+.custom-btn:hover{
+  color: white;
+  background-color: #4f5d73;
+}
