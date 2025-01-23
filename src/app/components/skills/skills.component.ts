@@ -1,10 +1,11 @@
-import { Component, AfterViewInit } from '@angular/core';
+import {Component, AfterViewInit, ViewEncapsulation} from '@angular/core';
 
 @Component({
   selector: 'app-skills',
   templateUrl: './skills.component.html',
   standalone: true,
-  styleUrls: ['./skills.component.css']
+  styleUrls: ['./skills.component.css'],
+  encapsulation: ViewEncapsulation.None,
 })
 export class SkillsComponent implements AfterViewInit {
 

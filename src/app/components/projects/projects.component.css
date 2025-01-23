@@ -1,0 +1,51 @@
+#projectsId{
+  padding-top: 3em;
+}
+
+
+.image-wrapper{
+  padding: 2em;
+}
+h4{
+  margin-left: 1.2em;
+}
+
+
+.image-wrapper {
+  position: relative;
+  overflow: hidden; /* Ensures the image stays within the container */
+}
+
+.image-wrapper img {
+  border: 2px solid black; /* Black border around the image */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effect */
+  width: 100%;
+}
+
+.image-wrapper img:hover {
+  transform: translateY(-5px); /* Slight upward movement on hover */
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3); /* Stronger shadow on hover */
+}
+
+.project-section h4 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.details a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.details a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 992px) {
+  .col-md-6 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}

@@ -1,0 +1,13 @@
+.app-wrapper {
+  /*background: linear-gradient(to right, #d1d7e0, white, white, white,white, #d1d7e0);*/
+  /*  background-color: #fff9e6;*/
+  /*  background: linear-gradient(to right, #d2e8d8, #fff9e6, #fff9e6, #fff9e6, #fff9e6,  #d2e8d8);*/
+  /*}*/
+  /*background: linear-gradient(to right, #eef6f0, #fff9e6);*/
+  /*background: linear-gradient(to right, #fcf1e8,  #fefae6);*/
+  background-color: #f0f2f5;
+  border: #4f5d73 5px solid;
+}
+html{
+  scroll-behavior: smooth;
+}

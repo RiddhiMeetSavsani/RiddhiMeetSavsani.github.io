@@ -1,0 +1,45 @@
+/* Hide degree info by default */
+.degree-info {
+  display: none;
+  padding: 0;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-top: none;
+  list-style: none;
+  position: absolute;
+  left: 50%; /* Position from the left to 50% of the parent */
+  top: 100%; /* Position below the degree name */
+  width: 100%; /* Set the width to 90% */
+  transform: translateX(-50%); /* Move the element back by 50% of its width to center it */
+  z-index: 1; /* Ensure it stays on top */
+}
+
+/* Ensure the degree item is positioned relative to its content */
+.degree-item {
+  margin-bottom: 1.5rem;
+  position: relative; /* Establishes a stacking context */
+}
+
+.degree-name {
+  display: block;
+  background-color: #f9f9f9;
+  padding: 0.5em;
+  border: 1px solid #ccc;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.degree-item:hover .degree-info {
+  display: block;
+}
+
+/* Optional styling for the hover effect */
+.degree-info li {
+  padding: 0.5em;
+  border-bottom: 1px solid #ccc;
+}
+
+.degree-info li:last-child {
+  border-bottom: none;
+}
