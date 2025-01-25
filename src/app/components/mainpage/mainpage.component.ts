@@ -1,12 +1,14 @@
 import { Component } from '@angular/core';
 import {HomeComponent} from '../home/home.component';
 import {ProjectsComponent} from '../projects/projects.component';
+import {HobbyComponent} from '../hobby/hobby.component';
 
 @Component({
   selector: 'app-mainpage',
   imports: [
     HomeComponent,
-    ProjectsComponent
+    ProjectsComponent,
+    HobbyComponent
   ],
   templateUrl: './mainpage.component.html',
   standalone: true,
