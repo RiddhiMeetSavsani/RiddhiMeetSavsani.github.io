@@ -1,3 +1,5 @@
+
+
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
 
@@ -10,6 +12,8 @@ import { Router } from '@angular/router';
 })
 export class HeaderComponent {
   constructor(private router: Router) {}
+
+
 
   navigateToSection(route: string, sectionId: string): void {
     this.router.navigate([route]).then(() => {
@@ -27,7 +31,11 @@ export class HeaderComponent {
           });
         }
       }, 0); // Minimal delay to allow DOM rendering
+
+
     });
   }
+
+
 
 }

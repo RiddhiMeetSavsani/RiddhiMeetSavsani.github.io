@@ -1,6 +1,7 @@
 .container-fluid{
   max-width: 1900px;
 }
+
 /* Make header background gradient and apply shadow */
 .gradient-navbar {
   /*background: #d2e8d8;*/
