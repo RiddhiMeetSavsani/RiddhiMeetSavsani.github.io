@@ -1,4 +1,6 @@
-
+.container-fluid{
+  max-width: 1900px;
+}
 /* Make header background gradient and apply shadow */
 .gradient-navbar {
   /*background: #d2e8d8;*/
@@ -39,7 +41,7 @@
 
 /* Offcanvas container */
 .offcanvas {
-  height:21.5em;
+  height:17.5em;
   width: 12em;
   background-color:#f0f2f5 ;
 }

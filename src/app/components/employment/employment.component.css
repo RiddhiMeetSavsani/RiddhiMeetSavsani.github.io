@@ -1,4 +1,6 @@
-/* Hide the roles by default */
+h2{
+  margin-top: 1em;
+}/* Hide the roles by default */
 .roles-container {
   display: none;
   position: absolute;

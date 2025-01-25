@@ -1,6 +1,13 @@
-
-.container{
-  padding-top: 105px;
+#typingEffect {
+  visibility: hidden; /* Hides the text but keeps the space reserved */
+  height: 2.5em; /* Set a fixed height to prevent content shifting */
+  line-height: 2.5em; /* Align text vertically for consistent spacing */
+  overflow: hidden; /* Prevent any overflow issues */
+  padding-left: 50px;
+}
+.container-fluid{
+  padding-top: 95px;
+  max-width: 1900px;
   /*background-color: #f0f2f5;*/
   /*background: linear-gradient(to right, #d1d7e0, #f0f2f5, #f0f2f5, #f0f2f5,  #d1d7e0);*/
 }
@@ -18,12 +25,16 @@
   font-size: 3.5rem; /* Default size for larger screens */
 }
 
+
+
 @media (max-width: 1200px) {
   #typingEffect {
     font-size: 3rem; /* Font size for medium screens (e.g., tablets) */
   }
 }
+@media (max-width: 991px) {
 
+}
 @media (max-width: 991px) {
   #typingEffect {
     font-size: 2rem; /* Font size for smaller screens (e.g., mobile) */
@@ -34,4 +45,26 @@
   #typingEffect {
     font-size: 1.5rem; /* Font size for very small screens (e.g., extra small mobile) */
   }
+}
+
+.home1{
+  width: 95%;
+  margin: auto;
+}
+.about-section{
+  text-align: start;
+  padding-right: 5px;
+  max-width: 90%;
+}
+
+@media (max-width: 1060px) {
+  .img-section {
+    /* Add any specific styles for the image section */
+  }
+
+  .about-section {
+    /* Add any specific styles for the about-me section */
+    text-align: justify; /* Example for justified text */
+  }
+
 }

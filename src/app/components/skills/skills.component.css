@@ -1,3 +1,9 @@
+.skills-sections{
+  padding-left: 10em;
+  padding-right: 10em;
+}
+
+
 .skills{
   margin-top: 10em;
 }
@@ -33,6 +39,16 @@
 .skills-section span{
   margin-left: 1em;
 }
+
+@media (max-width: 1340px) {
+  .skills-sections{
+    padding:0;
+    width: 90%;
+  }
+
+}
+
+
 
 @media (max-width: 992px) {
   .skills-section ul {
