@@ -210,7 +210,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;gh-pages&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -261,7 +261,7 @@
       <workItem from="1737726863122" duration="1619000" />
       <workItem from="1737728950020" duration="1388000" />
       <workItem from="1737731078529" duration="1754000" />
-      <workItem from="1737733456730" duration="29485000" />
+      <workItem from="1737733456730" duration="30301000" />
     </task>
     <servers />
   </component>
