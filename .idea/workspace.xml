@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f6507578-0a40-41a3-8867-e70ab4502f8e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/extensions.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/launch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/tasks.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.nojekyll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/3rdpartylicenses.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/files/Riddhi_Meet_Savsani_Resume.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/images/Auction.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/images/CashDaddy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/images/LinkdinIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/images/MyPhoto.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/images/NatureExplorationApp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/images/adaptive.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/images/algorithms.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/images/angularjs.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/images/bootstrap.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/images/career.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/images/cplusplus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/images/creativity.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/images/csharp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/images/css.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/images/figma.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/images/gaussian-distribution-mathematical-curve-icon-260nw-1471436633.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/images/github.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/images/graduation_cap.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/images/graphical.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/images/hand-shake-icon-Graphics-23096086-1-1-580x387.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/images/html.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/images/img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/images/java.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/images/javascript.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/images/kotlin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/images/laravel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/images/lets-chat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/images/lets-talk-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/images/lets-talk1.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/images/mail-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/images/mathematics.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/images/mentoring.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/images/mysql.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/images/php.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/images/porfolioHome.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/images/portfolio.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/images/problem-solving.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/images/punctuality.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/images/python.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/images/resume-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/images/resume-icon1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/images/skills.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/images/swift.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/images/team.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/images/teamwork.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/images/visualization.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/main-55XKPDAM.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/polyfills-FFHMD2TL.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/prerendered-routes.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/scripts-EEEIPNC3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/styles-IZ2BNRCU.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.config.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.routes.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/about-me/about-me.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/about-me/about-me.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/about-me/about-me.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/about-me/about-me.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/contact/contact.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/contact/contact.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/contact/contact.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/contact/contact.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/education/education.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/education/education.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/education/education.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/education/education.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/employment/employment.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/employment/employment.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/employment/employment.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/employment/employment.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/footer/footer.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/footer/footer.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/footer/footer.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/footer/footer.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/header/header.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/header/header.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/header/header.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/header/header.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/home/home.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/home/home.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/home/home.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/home/home.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/mainpage/mainpage.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/mainpage/mainpage.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/mainpage/mainpage.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/mainpage/mainpage.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/projects/projects.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/projects/projects.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/projects/projects.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/projects/projects.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/skills/skills.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/skills/skills.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/skills/skills.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/skills/skills.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/files/Riddhi_Meet_Savsani_Resume.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/Auction.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/CashDaddy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/LinkdinIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/MyPhoto.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/NatureExplorationApp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/adaptive.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/algorithms.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/angularjs.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/bootstrap.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/career.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/cplusplus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/creativity.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/csharp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/css.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/figma.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/gaussian-distribution-mathematical-curve-icon-260nw-1471436633.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/github.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/graduation_cap.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/graphical.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/hand-shake-icon-Graphics-23096086-1-1-580x387.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/html.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/java.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/javascript.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/kotlin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/laravel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/lets-chat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/lets-talk-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/lets-talk1.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/mail-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/mathematics.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/mentoring.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/mysql.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/php.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/porfolioHome.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/portfolio.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/problem-solving.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/punctuality.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/python.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/resume-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/resume-icon1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/skills.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/swift.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/team.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/teamwork.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/visualization.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.spec.json" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="gh-pages" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;RiddhiMeetSavsani&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/RiddhiMeetSavsani/RiddhiMeetSavsani.github.io.git&quot;,
+    &quot;accountId&quot;: &quot;a2a3886f-02a5-40a3-8aa1-6547b135a2ab&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2s4tAAkNi7L70EBNygus2KxZfso" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;gh-pages&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\My-Bin\\portfolio1\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\My-Bin\portfolio1\docs" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.Angular CLI Server">
+    <configuration name="Angular Application" type="JavascriptDebugType" uri="http://localhost:4200">
+      <method v="2" />
+    </configuration>
+    <configuration name="Angular CLI Server" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-PS-242.21829.154" />
+        <option value="bundled-php-predefined-a98d8de5180a-4d9f4c849d09-com.jetbrains.php.sharedIndexes-PS-242.21829.154" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f6507578-0a40-41a3-8867-e70ab4502f8e" name="Changes" comment="" />
+      <created>1737726528302</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1737726528302</updated>
+      <workItem from="1737726529375" duration="265000" />
+      <workItem from="1737726863122" duration="1619000" />
+      <workItem from="1737728950020" duration="1388000" />
+      <workItem from="1737731078529" duration="1754000" />
+      <workItem from="1737733456730" duration="29485000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
