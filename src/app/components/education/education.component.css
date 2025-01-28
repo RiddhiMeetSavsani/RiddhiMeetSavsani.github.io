@@ -12,6 +12,7 @@
   width: 100%; /* Set the width to 90% */
   transform: translateX(-50%); /* Move the element back by 50% of its width to center it */
   z-index: 1; /* Ensure it stays on top */
+  margin-left: 5px;
 }
 
 /* Ensure the degree item is positioned relative to its content */

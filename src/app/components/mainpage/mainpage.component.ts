@@ -8,7 +8,6 @@ import {HobbyComponent} from '../hobby/hobby.component';
   imports: [
     HomeComponent,
     ProjectsComponent,
-    HobbyComponent
   ],
   templateUrl: './mainpage.component.html',
   standalone: true,
