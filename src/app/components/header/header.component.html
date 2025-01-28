@@ -9,15 +9,15 @@
     <div class="d-none d-lg-flex">
       <ul class="nav justify-content-center align-items-center">
         <li class="nav-item">
-          <a  (click)="navigateToSection('/home', 'projectsId')" class="nav-link hover-effect a-transition"
+          <a appHoverEffect [underlineColor]="'white'" (click)="navigateToSection('/home', 'projectsId')" class="nav-link hover-effect a-transition"
              style="color: White!important; font-size: 1.5em">Projects</a>
         </li>
         <li class="nav-item">
-          <a  (click)="navigateToSection('/about', 'skillsId')" class="nav-link hover-effect a-transition"
+          <a  appHoverEffect [underlineColor]="'white'" (click)="navigateToSection('/about', 'skillsId')" class="nav-link hover-effect a-transition"
              style="color: white !important; font-size: 1.5em">About Me</a>
         </li>
         <li class="nav-item">
-          <a  (click)="navigateToSection('/contact', 'contactId')" class="nav-link hover-effect a-transition"
+          <a appHoverEffect [underlineColor]="'white'" (click)="navigateToSection('/contact', 'contactId')" class="nav-link hover-effect a-transition"
              style="color: white !important; font-size: 1.5em">Contact</a>
         </li>
         <li class="nav-item">

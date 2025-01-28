@@ -13,6 +13,7 @@ export class SkillsComponent implements AfterViewInit {
   ngAfterViewInit(): void {
     const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]') as NodeListOf<HTMLElement>;
     [...tooltipTriggerList].forEach((tooltipTriggerEl) => {
+
       // @ts-ignore
       new tooltipTriggerEl.Tooltip(tooltipTriggerEl);
     });

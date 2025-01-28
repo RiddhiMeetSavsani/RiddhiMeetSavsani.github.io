@@ -2,10 +2,12 @@
 
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
+import {HoverEffectDirective} from '../../directives/hover-effect.directive';
 
 @Component({
   selector: 'app-header',
   imports: [
+    HoverEffectDirective
 
   ],
   templateUrl: './header.component.html',
