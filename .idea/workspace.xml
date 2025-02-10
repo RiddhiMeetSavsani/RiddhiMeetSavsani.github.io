@@ -5,59 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f6507578-0a40-41a3-8867-e70ab4502f8e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/docs/.nojekyll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/browser/assets/files/Riddhi_Meet_Savsani_Resume.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/browser/assets/images/Auction.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/browser/assets/images/CashDaddy.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/browser/assets/images/LinkdinIcon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/browser/assets/images/MyPhoto.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/browser/assets/images/NatureExplorationApp.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/browser/assets/images/adaptive.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/browser/assets/images/algorithms.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/browser/assets/images/angularjs.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/browser/assets/images/bootstrap.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/browser/assets/images/career.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/browser/assets/images/cplusplus.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/browser/assets/images/creativity.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/browser/assets/images/csharp.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/browser/assets/images/css.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/browser/assets/images/figma.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/browser/assets/images/gaussian-distribution-mathematical-curve-icon-260nw-1471436633.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/browser/assets/images/github.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/browser/assets/images/graduation_cap.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/browser/assets/images/graphical.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/browser/assets/images/hand-shake-icon-Graphics-23096086-1-1-580x387.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/browser/assets/images/html.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/browser/assets/images/img.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/browser/assets/images/java.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/browser/assets/images/javascript.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/browser/assets/images/kotlin.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/browser/assets/images/laravel.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/browser/assets/images/lets-chat.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/browser/assets/images/lets-talk-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/browser/assets/images/lets-talk1.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/browser/assets/images/mail-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/browser/assets/images/mathematics.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/browser/assets/images/mentoring.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/browser/assets/images/mysql.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/browser/assets/images/php.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/browser/assets/images/porfolioHome.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/browser/assets/images/portfolio.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/browser/assets/images/problem-solving.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/browser/assets/images/punctuality.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/browser/assets/images/python.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/browser/assets/images/resume-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/browser/assets/images/resume-icon1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/browser/assets/images/skills.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/browser/assets/images/swift.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/browser/assets/images/team.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/browser/assets/images/teamwork.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/browser/assets/images/visualization.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/browser/main-WHGNQNQE.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/browser/polyfills-FFHMD2TL.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/browser/scripts-EEEIPNC3.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/browser/styles-IZ2BNRCU.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,20 +44,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "gh-pages",
-    "ignore.virus.scanning.warn.message": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "D:\\My-Bin\\portfolio1\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;gh-pages&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\My-Bin\\portfolio1\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\My-Bin\portfolio1\docs" />
