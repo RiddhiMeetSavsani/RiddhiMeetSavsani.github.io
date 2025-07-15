@@ -1,12 +1,33 @@
-import { Component } from '@angular/core';
+import { Component, OnInit, OnDestroy } from '@angular/core';
 
 @Component({
   selector: 'app-projects',
-  imports: [],
   templateUrl: './projects.component.html',
-  standalone: true,
-  styleUrl: './projects.component.css'
+  styleUrls: ['./projects.component.css'],
+  standalone: true
 })
-export class ProjectsComponent {
+export class ProjectsComponent implements OnInit, OnDestroy {
+  images: string[] = [
+    'assets/images/missanPhoto1.png',
+    'assets/images/missanPhoto2.png'
+  ];
 
+  currentImage: string = this.images[0];
+  private currentIndex: number = 0;
+  private intervalId: any;
+
+  ngOnInit(): void {
+    this.startImageRotation();
+  }
+
+  startImageRotation(): void {
+    this.intervalId = setInterval(() => {
+      this.currentIndex = (this.currentIndex + 1) % this.images.length;
+      this.currentImage = this.images[this.currentIndex];
+    }, 3000); // change every 3 seconds
+  }
+
+  ngOnDestroy(): void {
+    clearInterval(this.intervalId);
+  }
 }
